@@ -1,0 +1,14 @@
+:root {
+    --light-background: #fff6fb;
+    --accent: #d6eeff;
+    --font-light: #888281;
+    --valid-green: #4ebc59;
+    --dubious-orange: #f6ad49;
+    --bullshit-red: #c8231e;
+    --contrast: #4e4187;
+    --font-medium: #695a67;
+    --font-dark: #413a46;
+    --relief: #aed7f5;
+    --transparent: rgba(255, 255, 255, 0);
+    --white: #ffffff;
+  }

@@ -24,6 +24,13 @@
   color: white;
 }
 
+.Background-Gradient {
+  background-image: linear-gradient(180deg, #FFF6FB 0%, #D6EEFF 52.08%, #AED7F5 100%);
+  height: 100vh;
+  min-height: 100vh;
+  width: 100%;
+}
+
 .App-link {
   color: #61dafb;
 }
