@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {Switch, Link, Route, BrowserRouter} from 'react-router-dom'
 import styles from '../styles/navbar.module.css'
+import LoginAccountButton from './login-account-button'
 
 
 class Navbar extends Component{
@@ -41,6 +42,7 @@ class Navbar extends Component{
                             </div>
                         </Link>
                     )}/>
+                    <LoginAccountButton/>
                 </div>
             </BrowserRouter>
         )
