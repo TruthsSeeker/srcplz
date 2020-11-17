@@ -38,8 +38,6 @@ ul {
 }
 
 .link {
-    height: 3rem;
-    padding: 1rem 2rem 1rem 0;
     font-family: Rubik;
     font-size: 1.125rem;
     font-weight: 500;
@@ -48,8 +46,7 @@ ul {
     line-height: normal;
     letter-spacing: normal;
     text-align: left;
-    vertical-align: middle;
-    display: table-cell;
+    margin-right: 1rem;
 }
 
 .link:hover {
@@ -66,12 +63,9 @@ ul {
     color: var(--contrast);
 }
 
-
 .accountButton {
     margin-left: auto;
-    margin-right: 3rem;
-    display: flex;
-    align-items: center;
+    margin-right: 1.5rem;
     font-family: Rubik;
     font-size: 1.125rem;
     font-weight: 500;
@@ -80,6 +74,9 @@ ul {
     line-height: normal;
     letter-spacing: normal;
     text-align: right;
-    vertical-align: middle;
     color: var(--font-dark);
+}
+
+.loginButton {
+    composes: accountButton;
 }

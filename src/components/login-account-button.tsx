@@ -10,8 +10,12 @@ export default class LoginAccountButton extends Component {
         return (
             <div className={styles.accountButton}>
                 {this.context.isLoggedIn 
-                ? <div onClick={e => this.context.logout()}> Logged In </div>
-                : <div onClick={e => this.context.login()}> Log In </div>}  
+                ? <button 
+                    className={styles.loginButton}
+                    onClick={e => this.context.logout()}> Logged In </button>
+                : <button 
+                    className={styles.loginButton}
+                    onClick={e => this.context.login()}> Log In </button>}  
             </div>
         )
     }

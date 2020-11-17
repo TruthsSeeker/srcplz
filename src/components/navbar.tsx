@@ -15,31 +15,23 @@ class Navbar extends Component{
                         </div>
                     </Link>
                     <Route path="/mission" children={props => (
-                        <Link to="/mission">
-                            <div className={props.match ? styles.activeLink: styles.standardLink}>
-                                Mission Statement
-                            </div>
+                        <Link to="/mission" className={props.match ? styles.activeLink: styles.standardLink}>
+                            Mission Statement
                         </Link>
                     )}/>
                     <Route path="/blog" children={props => (
-                        <Link to="/blog">
-                            <div className={props.match ? styles.activeLink: styles.standardLink}>
-                                Blog
-                            </div>
+                        <Link to="/blog" className={props.match ? styles.activeLink: styles.standardLink}>
+                            Blog
                         </Link>
                     )}/>
                     <Route path="/contribute" children={props => (
-                        <Link to="/contribute">
-                            <div className={props.match ? styles.activeLink: styles.standardLink}>
+                        <Link to="/contribute" className={props.match ? styles.activeLink: styles.standardLink}>
                                 Support Us
-                            </div>
                         </Link>
                     )}/>
                     <Route path="/contact" children={props => (
-                        <Link to="/contact">
-                            <div className={props.match ? styles.activeLink: styles.standardLink}>
+                        <Link to="/contact" className={props.match ? styles.activeLink: styles.standardLink}>
                                 Contact Us
-                            </div>
                         </Link>
                     )}/>
                     <LoginAccountButton/>
