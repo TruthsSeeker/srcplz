@@ -97,7 +97,7 @@ button {
   font-stretch: normal;
 }
 
-.Heading-1 {
+.Heading1 {
   font-family: Rubik;
   font-size: 2.25rem;
   font-weight: bold;
@@ -107,7 +107,7 @@ button {
   letter-spacing: normal;
 }
 
-.Heading-2 {
+.Heading2 {
   font-family: Rubik;
   font-size: 1.5rem;
   font-weight: 500;
@@ -117,7 +117,7 @@ button {
   letter-spacing: normal;
 }
 
-.H1-Phone {
+.H1Phone {
   font-family: Rubik;
   font-size: 1.125rem;
   font-weight: bold;
@@ -127,7 +127,7 @@ button {
   letter-spacing: normal;
 }
 
-.Heading-3 {
+.Heading3 {
   font-family: Rubik;
   font-size: 1.125rem;
   font-weight: 500;
@@ -137,7 +137,7 @@ button {
   letter-spacing: normal;
 }
 
-.Inline-Hyperlink {
+.InlineHyperlink {
   font-family: Karla;
   font-size: 1rem;
   font-weight: bold;
@@ -147,7 +147,7 @@ button {
   letter-spacing: normal;
 }
 
-.H2-phone {
+.H2Phone {
   font-family: Rubik;
   font-size: 1rem;
   font-weight: 500;
@@ -167,7 +167,7 @@ body {
   letter-spacing: normal;
 }
 
-.H3-phone {
+.H3Phone {
   font-family: Rubik;
   font-size: 0.875rem;
   font-weight: 500;
@@ -187,7 +187,7 @@ body {
   letter-spacing: normal;
 }
 
-.hyperlink-phone {
+.hyperlinkPhone {
   font-family: Karla;
   font-size: 0.75rem;
   font-weight: bold;
@@ -197,7 +197,7 @@ body {
   letter-spacing: normal;
 }
 
-.Body-phone {
+.BodyPhone {
   font-family: Karla;
   font-size: 0.75rem;
   font-weight: normal;
@@ -207,7 +207,7 @@ body {
   letter-spacing: normal;
 }
 
-.tag-phone {
+.tagPhone {
   font-family: Karla;
   font-size: 0.625rem;
   font-weight: normal;

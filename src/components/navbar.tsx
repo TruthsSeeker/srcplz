@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
-import {Switch, Link, Route, BrowserRouter} from 'react-router-dom'
+import {Link, Route, BrowserRouter} from 'react-router-dom'
 import styles from '../styles/navbar.module.css'
-import LoginAccountButton from './login-account-button'
+import LoginAccountButton from './LoginAccountButton'
 
 
 class Navbar extends Component{
     render() {
         return (
-            <BrowserRouter>
                 <div className={styles.navbar}>
                     <Link to="/">
                         <div className={styles.SRCPLZPlaceholder}>
@@ -36,7 +35,6 @@ class Navbar extends Component{
                     )}/>
                     <LoginAccountButton/>
                 </div>
-            </BrowserRouter>
         )
     }
 }
