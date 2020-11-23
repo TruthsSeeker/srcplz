@@ -9,9 +9,9 @@ export default function Sidebar() {
         <BrowserRouter>
             <div className={collapsed ? styles.collapsedContainer : styles.container}>
                 <SideButton collapsed={collapsed} type={ButtonTypes.Search}/>
-                <SideButton collapsed={collapsed} type={ButtonTypes.Create}/>
                 <SideButton collapsed={collapsed} type={ButtonTypes.Favorites}/>
                 <SideButton collapsed={collapsed} type={ButtonTypes.Social}/>
+                <SideButton collapsed={collapsed} type={ButtonTypes.Create}/>
                 <SideButton collapsed={collapsed} type={ButtonTypes.Saved}/>
             </div>
         </BrowserRouter>
